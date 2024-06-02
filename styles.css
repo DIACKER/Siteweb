@@ -1,0 +1,171 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=AbrilFatFace);
+* { 
+    font-family: 'Montserrat';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* tete de page*/
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url('../image/images.jfif');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+    position: relative;
+    padding: 20px 50px;
+}
+
+.big-title {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-family: 'Abril FatFace';
+    font-weight: 100;
+    width: 40%;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* services */
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+
+.service-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: #add981;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 200px;
+}
+
+/* best sells */
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril fatFace';
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #add981;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.bests-items {
+    margin: 10px;
+}
+
+.best-plants {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plant-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 350px;
+    height: 350px;
+    flex: 1;
+}
+
+.plant2 {
+    background-image: url(../image/asy.png);
+}
+
+.plant-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #f0e8e8df;
+    padding: 5px 20px;
+}
+
+.plant-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.plant-price {
+    color: #0dd640;
+    line-height: 3px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* pied de page*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
